@@ -1,14 +1,16 @@
 This Folder Contains Code for XV6 operating system.
 
-To run the CTRL + P functionality:- 
+To run the CTRL + P functionality follow the steps given below:- 
 
-1.Download the Repository from https://github.com/mit-pdos/xv6-public
+Run the Following Commands for XV6 and qemu installation
 
-2.Change directory to the downloaded Repository
+1.sudo apt-get install qemu
+2.sudo apt-get install libc6-dev:i386
+3.git clone https://github.com/mit-pdos/xv6-public.git xv6
+4.chmod 700 -R xv6
+5.cd xv6
 
-3.Replace files in this repository with that in XV6
-
-3.Type 'make qemu' on the terminal
-
-4.After OS boots up Hold Ctrl and press P key
-
+Copy paste files inside this repository inside the xv6 directory and follow steps below:-
+1.make
+2.make qemu
+3.Hold 'Ctrl' key and Press 'P' key on the keyboard
